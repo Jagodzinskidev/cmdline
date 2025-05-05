@@ -18,4 +18,7 @@ int main(int argc, char *argv[]) {
     if (strcmp(choice, "add") == 0) {
         printf("%d + %d = %d", firstNumber, secondNumber, firstNumber+secondNumber);
     }
+    else if (strcmp(choice, "sub") == 0) {
+        printf("%d - %d = %d", firstNumber, secondNumber, firstNumber-secondNumber);
+    }
 }
