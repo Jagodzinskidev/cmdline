@@ -21,4 +21,7 @@ int main(int argc, char *argv[]) {
     else if (strcmp(choice, "sub") == 0) {
         printf("%d - %d = %d", firstNumber, secondNumber, firstNumber-secondNumber);
     }
+    else if (strcmp(choice, "mul") == 0) {
+        printf("%d * %d = %d", firstNumber, secondNumber, firstNumber*secondNumber);
+    }
 }
