@@ -27,7 +27,8 @@ int main(int argc, char *argv[]) {
     else if (strcmp(choice, "div") == 0) {
         if (secondNumber == 0) {
             printf("Nie mozna dzielic przez 0");
+        } else {
+            printf("%d / %d = %f", firstNumber, secondNumber, (double)firstNumber/(double)secondNumber);
         }
-        printf("%d / %d = %f", firstNumber, secondNumber, (double)firstNumber/(double)secondNumber);
     }
 }
