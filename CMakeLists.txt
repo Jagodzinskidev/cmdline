@@ -3,4 +3,6 @@ project(untitled36)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(untitled36 main.cpp)
+add_executable(untitled36 main.cpp
+        functions.cpp
+        functions.h)
